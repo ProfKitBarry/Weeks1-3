@@ -23,8 +23,8 @@ public class pulser : MonoBehaviour
 
 
         transform.localScale = Vector3.one * output;
-       
-        if (progress> 1f)
+
+        if (progress > 1f)
         {
             progress = 0f;
         }
